@@ -35,7 +35,7 @@ def delete_session_files(user_id):
 @app.on_message(filters.command("start"))
 async def start_command(client, message):
     await message.reply(
-        "Welcome to String Session Generator Bot!\n\n"
+        "Welcome to Pyrogram Session Generator Bot!\n\n"
         "To generate a session, please send /generate.\n\n"
         "To clear session from memory send /cleardb.\n\n"
         "**By: @TBots_Father**"

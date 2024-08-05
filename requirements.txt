@@ -1,5 +1,6 @@
 #devggn
 
+tgcrypto
 pyrogram
 flask
 gunicorn

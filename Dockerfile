@@ -2,7 +2,7 @@ FROM python:3.9-slim
 
 # Set the working directory
 WORKDIR /app 
-
+RUN pip install -U tgcrypto
 # Copy the requirements.txt file into the container
 COPY requirements.txt .
 

@@ -1,5 +1,5 @@
 FROM python:3.10.4-slim-buster
-
+RUN pip3 install wheel
 # Set the working directory
 WORKDIR /app 
 

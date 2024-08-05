@@ -1,6 +1,5 @@
 FROM python:3.10.4-slim-buster
 
-RUN apt -get install gcc -y
 RUN pip install -U tgcrypto
 # Set the working directory
 WORKDIR /app 

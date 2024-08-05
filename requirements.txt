@@ -1,6 +1,5 @@
 #devggn
 
-tgcrypto==1.2.3
 pyrogram
 flask
 gunicorn
